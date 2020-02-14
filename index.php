@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,4 +28,18 @@
   </main>
 </body>
 
-</html>
+</html> -->
+
+<?php 
+
+class test {
+  public function __construct($age) {
+    $this->age = $age;
+  }
+}
+
+$foo = new test(10);
+
+echo "<pre>";
+print_r($foo);
+die();
